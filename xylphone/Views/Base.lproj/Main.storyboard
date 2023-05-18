@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="xylphone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="AE7-Y1-mP4">
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0v-4v-pvY">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="114.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UdT-y8-ZQ0">
+                                                <rect key="frame" x="15" y="5" width="384" height="104.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="C">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="UdT-y8-ZQ0" secondAttribute="bottom" constant="5" id="AFD-vC-Sto"/>
+                                            <constraint firstItem="UdT-y8-ZQ0" firstAttribute="top" secondItem="M0v-4v-pvY" secondAttribute="top" constant="5" id="PA9-yD-C8h"/>
+                                            <constraint firstAttribute="trailing" secondItem="UdT-y8-ZQ0" secondAttribute="trailing" constant="15" id="ZIK-mu-L7Z"/>
+                                            <constraint firstItem="UdT-y8-ZQ0" firstAttribute="leading" secondItem="M0v-4v-pvY" secondAttribute="leading" constant="15" id="qKe-yP-Is5"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qJC-Wv-UO3">
+                                        <rect key="frame" x="0.0" y="116.5" width="414" height="114.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YsI-Ne-9ag">
+                                                <rect key="frame" x="20" y="5" width="374" height="104.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="D">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="YsI-Ne-9ag" firstAttribute="leading" secondItem="qJC-Wv-UO3" secondAttribute="leading" constant="20" id="CHV-vw-6QX"/>
+                                            <constraint firstItem="YsI-Ne-9ag" firstAttribute="top" secondItem="qJC-Wv-UO3" secondAttribute="top" constant="5" id="GhC-Ch-tgn"/>
+                                            <constraint firstAttribute="trailing" secondItem="YsI-Ne-9ag" secondAttribute="trailing" constant="20" id="lRP-Jb-VXF"/>
+                                            <constraint firstAttribute="bottom" secondItem="YsI-Ne-9ag" secondAttribute="bottom" constant="5" id="xeK-Bb-Mek"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5il-lr-IZN">
+                                        <rect key="frame" x="0.0" y="233" width="414" height="114.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqw-Gi-HkJ">
+                                                <rect key="frame" x="25" y="5" width="364" height="104.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="E">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Aqw-Gi-HkJ" secondAttribute="trailing" constant="25" id="2WB-mr-0yb"/>
+                                            <constraint firstItem="Aqw-Gi-HkJ" firstAttribute="top" secondItem="5il-lr-IZN" secondAttribute="top" constant="5" id="DFG-Se-uxv"/>
+                                            <constraint firstAttribute="bottom" secondItem="Aqw-Gi-HkJ" secondAttribute="bottom" constant="5" id="ahl-ch-w69"/>
+                                            <constraint firstItem="Aqw-Gi-HkJ" firstAttribute="leading" secondItem="5il-lr-IZN" secondAttribute="leading" constant="25" id="hsq-br-XYm"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p5B-2s-Y61">
+                                        <rect key="frame" x="0.0" y="349.5" width="414" height="115"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOh-uT-nKy">
+                                                <rect key="frame" x="30" y="5" width="354" height="105"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="F">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="KOh-uT-nKy" firstAttribute="top" secondItem="p5B-2s-Y61" secondAttribute="top" constant="5" id="8qm-1d-kbj"/>
+                                            <constraint firstAttribute="bottom" secondItem="KOh-uT-nKy" secondAttribute="bottom" constant="5" id="ULM-4W-uFA"/>
+                                            <constraint firstItem="KOh-uT-nKy" firstAttribute="leading" secondItem="p5B-2s-Y61" secondAttribute="leading" constant="30" id="iWq-9d-SKD"/>
+                                            <constraint firstAttribute="trailing" secondItem="KOh-uT-nKy" secondAttribute="trailing" constant="30" id="jRK-2i-JxH"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IdL-wm-GRB">
+                                        <rect key="frame" x="0.0" y="466.5" width="414" height="114.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIR-Qc-pD5">
+                                                <rect key="frame" x="35" y="5" width="344" height="104.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="G">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="UIR-Qc-pD5" secondAttribute="bottom" constant="5" id="Zwg-8Y-R7l"/>
+                                            <constraint firstItem="UIR-Qc-pD5" firstAttribute="top" secondItem="IdL-wm-GRB" secondAttribute="top" constant="5" id="af8-5A-5eV"/>
+                                            <constraint firstItem="UIR-Qc-pD5" firstAttribute="leading" secondItem="IdL-wm-GRB" secondAttribute="leading" constant="35" id="cNs-e4-CgN"/>
+                                            <constraint firstAttribute="trailing" secondItem="UIR-Qc-pD5" secondAttribute="trailing" constant="35" id="zeo-ye-PPj"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQa-Hr-wYw">
+                                        <rect key="frame" x="0.0" y="583" width="414" height="114.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEs-bH-sIe">
+                                                <rect key="frame" x="40" y="5" width="334" height="104.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="A">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="yEs-bH-sIe" firstAttribute="leading" secondItem="AQa-Hr-wYw" secondAttribute="leading" constant="40" id="8LW-en-3Wr"/>
+                                            <constraint firstAttribute="bottom" secondItem="yEs-bH-sIe" secondAttribute="bottom" constant="5" id="A1w-aJ-8uJ"/>
+                                            <constraint firstItem="yEs-bH-sIe" firstAttribute="top" secondItem="AQa-Hr-wYw" secondAttribute="top" constant="5" id="ARj-98-UNa"/>
+                                            <constraint firstAttribute="trailing" secondItem="yEs-bH-sIe" secondAttribute="trailing" constant="40" id="TkG-I2-qwX"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TC6-ua-e3R">
+                                        <rect key="frame" x="0.0" y="699.5" width="414" height="114.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uf7-Nh-OKT">
+                                                <rect key="frame" x="45" y="5" width="324" height="104.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="B">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="uf7-Nh-OKT" firstAttribute="leading" secondItem="TC6-ua-e3R" secondAttribute="leading" constant="45" id="Gkr-Ru-H7F"/>
+                                            <constraint firstAttribute="trailing" secondItem="uf7-Nh-OKT" secondAttribute="trailing" constant="45" id="N1z-iR-uRD"/>
+                                            <constraint firstItem="uf7-Nh-OKT" firstAttribute="top" secondItem="TC6-ua-e3R" secondAttribute="top" constant="5" id="NfX-5L-Cjx"/>
+                                            <constraint firstAttribute="bottom" secondItem="uf7-Nh-OKT" secondAttribute="bottom" constant="5" id="bQv-ZT-3GB"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AE7-Y1-mP4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="97H-LN-fy6"/>
+                            <constraint firstAttribute="trailing" secondItem="AE7-Y1-mP4" secondAttribute="trailing" id="GG7-Yx-cwK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AE7-Y1-mP4" secondAttribute="bottom" id="TBs-9c-JUV"/>
+                            <constraint firstItem="AE7-Y1-mP4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a7r-WR-ytM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
